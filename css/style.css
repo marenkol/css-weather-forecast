@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: all .1s ease-in;
+}
+
+html {
+    height: 100%;
+}
+
+html, body{
+	min-height: 100%;
+}
+
+body{
+	margin: 0;
+	border: 20px solid #2B81AC;
+	color: white;
+	background-color: #3399CC;
+	font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif ;
+	box-sizing: border-box;
+}
+
+.ba-header{
+	font-size: 10px;
+	padding: 15px 0;
+}
+
+main{
+	border: 4px solid white;
+	/* font-size: 0;
+	To remove the spaces between li-blocks
+	I'm not closing tags <li> in html*/
+}
+
+.ba-conteiner, .ba-footer{
+	padding: 10px 0;
+}
+
+.ba-conteiner{
+	margin: 0 auto;
+	padding: 0;
+	max-width: 800px;
+	min-height: 100%;
+}
+
+.ba-cities-list i{
+	font-size: 30px;
+}
+
+.ba-cities-list{
+	/* background-color: #FFFFFF; */
+}
+
+.ba-cities-list:hover  li:not(:hover) {
+ opacity: 0.3;
+}
+
+.ba-cities-list li{
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 20px;
+	text-align: center;
+	cursor: pointer;
+	border: 3px solid white;
+}
+
+.ba-cities-list  .ba-temperature:after{
+	content:" °C";
+}
+
+.poltava{
+	width: 50%;
+	background-color: #3399CC;
+}
+.paris{
+	width: 25%;
+	background-color: #33CCCC;
+}
+.belgrade{
+	width: 25%;
+	background-color: #996699;
+}
+.moscow{
+	width: 25%;
+	background-color: #C24747  ;
+}
+.tel-aviv{
+	width: 25%;
+	background-color: #E2674A  ;
+}
+.cair{
+	width: 25%;
+	background-color: #FFCC66  ;
+}
+.new-york{
+	width: 25%;
+	background-color: #99CC99  ;
+}
+.new-delhi{
+	width: 25%;
+	background-color: #669999  ;
+}
+.sun-francisco{
+	width: 50%;
+	background-color: #CC6699  ;
+}
+.tokyo{
+	width: 25%;
+	background-color: #339966  ;
+}
+.sydney{
+	width: 100%;
+	background-color: #666699  ;
+}

@@ -33,11 +33,11 @@ main{
 	I'm not closing tags <li> in html*/
 }
 
-.ba-conteiner, .ba-footer{
+.ba-container, .ba-footer{
 	padding: 10px 0;
 }
 
-.ba-conteiner{
+.ba-container{
 	margin: 0 auto;
 	padding: 0;
 	max-width: 800px;
